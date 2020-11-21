@@ -1,0 +1,89 @@
+
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;300;400;500;600;700;800;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Yellowtail&display=swap');
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    font-family: montserrat, serif;
+    color: #fff;
+    background: #333
+    
+}
+
+header {
+    background: #1e1e1e;
+    padding: 10px 15px;
+}
+
+
+header .clock-icon img{
+    animation: spin 5000ms infinite linear;
+    width: 50px;
+    
+}
+
+.text {
+    text-align: center;
+    margin: 20px 0 0;
+}
+
+.video {
+    margin: 50px 0 0;
+    text-align: center;
+}
+
+.quote {
+    margin: 20px 0 0;
+    text-align: center;
+    font-family: yellowtail, serif;
+}
+
+footer {
+    padding: 40px;
+    background: #1e1e1e;
+    position: fixed;
+    left: 0;
+    right: 0;
+    bottom: 0;
+}
+
+
+.footer-text {
+    color: #fff;
+    font-weight:  100;
+}
+
+
+
+@keyframes spin {
+    from {
+        transform: rotate(0deg) ;
+    }
+
+    to {
+
+        transform: rotate(360deg) ;
+
+    }
+}
+
+@media only screen and (max-width: 767px) {
+
+
+    iframe {
+        width: 300px;
+        height: 200px;
+
+    }
+
+    .quote {
+       padding: 10px;
+    }
+    
+
+}
