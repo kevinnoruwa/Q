@@ -85,5 +85,10 @@ footer {
        padding: 10px;
     }
     
+    .footer-text {
+      font-size: .7rem;
+      
+    }
+    
 
 }
